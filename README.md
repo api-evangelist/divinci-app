@@ -1,4 +1,4 @@
-# divinci-app
+# Divinci
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-divinci-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://divinci.app/
+Divinci offers an AI platform that transforms websites into custom AI assistants. Users can paste a link and instantly receive a tailored AI that reflects their content and branding, complete with logo integration. The service is free to start, requires no credit card, and aims to provide quick, personalized AI experiences for businesses and individuals.
+
+**Areas:** website integration · conversational AI · no‑code · customer support · phone integration
+
+## Divinci on APIs.io
+
+Everything profiled for Divinci is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/divinci-app/](https://apis.io/providers/divinci-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Divinci AI API](https://apis.io/apis/divinci-app/divinci-ai-api/) — RESTful API for managing AI releases, RAG knowledge bases, fine‑tuning, transcripts, and more.
+- [Divinci AI API API](https://apis.io/apis/divinci-app/divinci-ai-api-api/) — RESTful API for managing AI releases, RAG knowledge bases, fine-tuning, transcripts, and more. Authenticate with an API key via the `X-Api-Key` header or a…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AudioTranscript](https://apis.io/schemas/divinci-app/divinci-app-audio-transcript/)
+- [FineTuneJob](https://apis.io/schemas/divinci-app/divinci-app-fine-tune-job/)
+- [HtmlPage](https://apis.io/schemas/divinci-app/divinci-app-html-page/)
+- [RagFile](https://apis.io/schemas/divinci-app/divinci-app-rag-file/)
+- [Release](https://apis.io/schemas/divinci-app/divinci-app-release/)
+- [Thread](https://apis.io/schemas/divinci-app/divinci-app-thread/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Divinci App Context](https://apis.io/jsonld/divinci-app/divinci-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Divinci API Rules](https://apis.io/rules/divinci-app/divinci-app-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Divinci App Authentication](https://apis.io/security/divinci-app/divinci-app-authentication/)
+- [Divinci App Domain Security](https://apis.io/security/divinci-app/divinci-app-domain-security/)
+- [Divinci App Vulnerability Disclosure](https://apis.io/security/divinci-app/divinci-app-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Divinci App Plans Pricing](https://apis.io/plans/divinci-app/divinci-app-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://divinci.app/)
+- [Documentation](https://divinci.ai/docs/)
+- [Pricing](https://divinci.ai/pricing/)
+- [Support](https://divinci.ai/support/)
+- [Blog](https://divinci.ai/blog/)
+- [Security](https://divinci.ai/security/)
+
+## API Evangelist rating
+
+**Kin Score 49.6** — developing · rubric 0.27.0 · scored 2026-11-06
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 49.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 38.9 |
+
+**Agent readiness 45.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | near-conformant (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | self |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.5** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/divinci-app/](https://apis.io/providers/divinci-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Divinci: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/divinci-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
